@@ -151,7 +151,7 @@ module.exports = {
   ],
   scripts: [
     {
-      src: "https://cdn.splitbee.io/sb.jss",
+      src: "https://cdn.splitbee.io/sb.js",
       async: true,
     },
   ],
