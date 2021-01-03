@@ -5,7 +5,6 @@ const allDocHomesPaths = [
   "/docs/parser/",
   "/docs/cli/",
   "/docs/hub/",
-  "/docs/playground/",
   "/docs/resources/",
   "/docs/support/",
   ...versions.slice(1).map((version) => `/docs/${version}/`),
@@ -72,7 +71,7 @@ module.exports = {
             },
             {
               label: "Playground",
-              to: "docs/playground/",
+              href: "https://playground.costflow.io",
             },
             {
               label: "Self-Hosted Hub",
