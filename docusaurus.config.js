@@ -149,4 +149,10 @@ module.exports = {
       },
     ],
   ],
+  scripts: [
+    {
+      src: "https://cdn.splitbee.io/sb.jss",
+      async: true,
+    },
+  ],
 };
