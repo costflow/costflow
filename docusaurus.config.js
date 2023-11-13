@@ -3,8 +3,8 @@ const allDocHomesPaths = [
   "/docs/",
   "/docs/syntax/",
   "/docs/parser/",
+  "/docs/desktop-apps/",
   "/docs/cli/",
-  "/docs/hub/",
   "/docs/resources/",
   "/docs/support/",
   ...versions.slice(1).map((version) => `/docs/${version}/`),
@@ -12,7 +12,8 @@ const allDocHomesPaths = [
 
 module.exports = {
   title: "Costflow",
-  tagline: "A series of products for making plain text accounting easier",
+  tagline:
+    "A set of open source products that make double-entry plain-text bookkeeping easier.",
   url: "https://www.costflow.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -21,6 +22,9 @@ module.exports = {
   organizationName: "costflow", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   themeConfig: {
+    prism: {
+      additionalLanguages: ["bash", "diff", "json"],
+    },
     navbar: {
       title: "Costflow",
       logo: {
@@ -33,12 +37,7 @@ module.exports = {
           to: "docs/",
           label: "Docs",
         },
-        { href: "https://blog.costflow.io", label: "Blog", position: "left" },
-        {
-          href: "https://hub.costflow.io",
-          label: "Self-Hosted",
-          position: "right",
-        },
+        { to: "docs/desktop-apps/", label: "Desktop Apps", position: "left" },
         {
           href: "https://playground.costflow.io",
           label: "Playground",
@@ -66,16 +65,16 @@ module.exports = {
               to: "docs/parser/",
             },
             {
+              label: "Desktop Apps",
+              to: "docs/desktop-apps/",
+            },
+            {
               label: "CLI",
               to: "docs/cli/",
             },
             {
               label: "Playground",
               href: "https://playground.costflow.io",
-            },
-            {
-              label: "Self-Hosted Hub",
-              to: "docs/hub/",
             },
           ],
         },
@@ -88,11 +87,11 @@ module.exports = {
             },
             {
               label: "Telegram",
-              href: "https://t.me/costflow",
+              href: "https://t.me/costflowio",
             },
             {
               label: "Github",
-              href: "https://github.com/costflow/costflow",
+              href: "https://github.com/costflow",
             },
           ],
         },
@@ -115,7 +114,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Costflow`,
+      copyright: `Copyright © ${new Date().getFullYear()}`,
     },
   },
   plugins: [
@@ -149,10 +148,5 @@ module.exports = {
       },
     ],
   ],
-  scripts: [
-    {
-      src: "https://cdn.splitbee.io/sb.js",
-      async: true,
-    },
-  ],
+  scripts: [],
 };

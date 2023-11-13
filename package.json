@@ -1,7 +1,12 @@
 {
   "name": "costflow-web",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.2.1",
+  "author": {
+    "name": "leplay",
+    "email": "leplay@duck.com",
+    "url": "https://leplay.net/"
+  },
+  "homepage": "https://www.costflow.io/",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -12,13 +17,13 @@
     "clear": "docusaurus clear"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.70",
-    "@docusaurus/plugin-client-redirects": "^2.0.0-alpha.70",
-    "@docusaurus/preset-classic": "2.0.0-alpha.70",
-    "@mdx-js/react": "^1.6.21",
-    "clsx": "^1.1.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "@docusaurus/core": "3.0.0",
+    "@docusaurus/plugin-client-redirects": "^3.0.0",
+    "@docusaurus/preset-classic": "3.0.0",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "browserslist": {
     "production": [

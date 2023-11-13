@@ -5,4 +5,4 @@ sidebar_label: Introduction
 slug: /hub/
 ---
 
-Get more info about Self-Hosted Costflow Hub on [https://hub.costflow.io/](https://hub.costflow.io/).
+Self-Hosted Costflow Hub is discontinued, please use [Costflow Desktop Apps](https://github.com/costflow/desktop) instead.

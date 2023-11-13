@@ -8,7 +8,7 @@ module.exports = {
     {
       type: "category",
       label: "Syntax",
-      collapsed: false,
+      collapsed: true,
       items: [
         "syntax/introduction",
         "syntax/config",
@@ -34,13 +34,13 @@ module.exports = {
     },
     {
       type: "category",
-      label: "CLI",
-      items: ["cli/introduction"],
+      label: "Desktop Apps",
+      items: ["desktop-apps/introduction", "desktop-apps/config"],
     },
     {
       type: "category",
-      label: "Self-Hosted Costflow Hub",
-      items: ["hub/introduction"],
+      label: "CLI",
+      items: ["cli/introduction"],
     },
     {
       type: "category",
@@ -49,8 +49,8 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Support Costflow",
-      items: ["support/introduction"],
+      label: "Donate",
+      items: ["donate/introduction"],
     },
   ],
 };

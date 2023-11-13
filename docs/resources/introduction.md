@@ -6,4 +6,4 @@ slug: /resources/
 ---
 
 - [Playground](https://playground.costflow.io)
-- [Roadmap](https://github.com/costflow/costflow/projects)
+- [Beancount Docs](https://beancount.github.io/docs/)

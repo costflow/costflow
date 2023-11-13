@@ -28,13 +28,13 @@ const features = [
     ),
   },
   {
-    title: "Self-Hosted Costflow Hub",
+    title: "Desktop Apps",
     badge: "NEW",
     imageUrl: "img/money_transfer__monochromatic.svg",
-    link: "https://hub.costflow.io/",
+    link: "/docs/desktop-apps/",
     description: (
       <>
-        With Self-Hosted Costflow Hub and your own <code>Telegram</code> bot,
+        With Costflow desktop apps and your <strong>own</strong> Telegram bot,
         you can keep accounting anytime, anywhere.
       </>
     ),
@@ -50,11 +50,6 @@ const features = [
     imageUrl: "img/finance_analytics__monochromatic.svg",
     link: "https://playground.costflow.io/",
     description: <>Try Costflow Syntax in your browser.</>,
-  },
-  {
-    title: "VSCode Extension",
-    imageUrl: "img/online_report_monochromatic.svg",
-    description: <>Coming soon.</>,
   },
 ];
 
@@ -92,7 +87,7 @@ function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="Costflow is a series of products for making plain text accounting easier, including syntax, parser, CLI, playground and self-hosted costflow hub, which let you keep accounting anytime, anywhere."
+      description="Costflow a set of open source products that make double-entry plain-text bookkeeping easier."
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
