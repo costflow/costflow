@@ -6,7 +6,7 @@ const allDocHomesPaths = [
   "/docs/desktop-apps/",
   "/docs/cli/",
   "/docs/resources/",
-  "/docs/support/",
+  "/docs/donate/",
   ...versions.slice(1).map((version) => `/docs/${version}/`),
 ];
 
@@ -99,16 +99,8 @@ module.exports = {
           title: "Support",
           items: [
             {
-              label: "Purchase Costflow Hub",
-              href: "https://hub.costflow.io/",
-            },
-            {
-              label: "Become a Sponsor",
-              to: "docs/support",
-            },
-            {
-              label: "One-time Donation",
-              to: "docs/support#one-time-donations",
+              label: "Donate",
+              to: "docs/donate/",
             },
             // Parser License? Contribute?
           ],
