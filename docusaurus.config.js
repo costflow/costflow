@@ -124,7 +124,7 @@ module.exports = {
         redirects: [],
       },
     ],
-    ["@gracefullight/docusaurus-plugin-vercel-analytics"],
+    ["@gracefullight/docusaurus-plugin-vercel-analytics", {}],
   ],
   presets: [
     [
