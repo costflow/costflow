@@ -20,8 +20,12 @@ This repository is the source code of Costflow website and docs.
 [https://www.costflow.io/docs/](https://www.costflow.io/docs/)
 
 ## Donate
+Thank you for considering donating to Costflow. You can use one of the following methods:
 
-[https://github.com/costflow/costflow#donate](https://github.com/costflow/costflow#donate)
+- Buy Me a Coffee: https://www.buymeacoffee.com/leplay
+- 支付宝 <br/> <img src="https://www.costflow.io/img/alipay.jpg" alt="Alipay" width="400"/>
+- 微信 <br/> <img src="https://www.costflow.io/img/wechat.png" alt="Wechat" width="400"/>
+
 
 ## Author
 
