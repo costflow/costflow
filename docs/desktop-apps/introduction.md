@@ -18,4 +18,4 @@ https://github.com/costflow/desktop/releases
 
 ## Configuration
 
-Check [Configuration](/docs/desktop-apps/configuration/) for more details.
+Check [Configuration](/docs/desktop-apps/config/) for more details.
