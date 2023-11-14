@@ -5,9 +5,11 @@ sidebar_label: Introduction
 slug: /desktop-apps/
 ---
 
+<img src="/img/desktop-apps.png" alt="Costflow Desktop Apps" />
+
 ## Download
 
-https://github.com/costflow/desktop/releases
+https://download.costflow.io/
 
 ## Features
 
