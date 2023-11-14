@@ -18,41 +18,4 @@ https://github.com/costflow/desktop/releases
 
 ## Configuration
 
-### Costflow Syntax config file path
-
-The file path of the Costflow syntax config file, should be a JSON file. Here is an example of the config file:
-
-```json
-{
-  "mode": "beancount",
-  "currency": "CNY",
-  "timezone": "Asia/Hong_Kong",
-  "tag": "#costflow",
-  "link": "",
-  "indent": 2,
-  "lineLength": 60,
-  "insertTime": "metadata",
-  "defaultAccount": "Assets:BofA",
-  "upperCaseAsCurrencyCode": true,
-  "alphavantage": "YOUR_ALPHAVANTAGE_API_KEY",
-  "account": {
-    "boc": "Assets:CN:BOC",
-    "cloud": "Expenses:Cloud",
-    "cmb": "Liabilities:CreditCard:CMB",
-    "eob": "Equity:Opening-Balances",
-    "food": "Expenses:Food",
-    "phone": "Expenses:Home:Phone",
-    "rent": "Expenses:Home:Rent",
-    "rx": "Assets:Receivables:X",
-    "ry": "Assets:Receivables:Y",
-    "subscription": "Expenses:Subscriptions",
-    "visa": "Liabilities:CreditCard:Visa"
-  },
-  "formula": {
-    "☕️": "@Leplays ☕️ {{ amount }} Liabilities:CreditCard:Visa > Expenses:Coffee",
-    "c2f": "{{ pre }} cmb > food",
-    "aws": "@AWS {{ amount }} USD visa > cloud",
-    "spotify": "@Spotify 16.98 USD visa > subscription"
-  }
-}
-```
+Check [Configuration](/docs/desktop-apps/configuration/) for more details.
