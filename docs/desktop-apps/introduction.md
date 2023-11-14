@@ -21,3 +21,13 @@ https://download.costflow.io/
 ## Configuration
 
 Check [Configuration](/docs/desktop-apps/config/) for more details.
+
+## Troubleshooting
+
+- Costflow can’t be opened because the developer cannot be verified.
+<p><img src="/img/costflow-cannot-be-opened.png" alt="Costflow cannot be opened" width="300"/></p>
+Open `Terminal.app` and enter the following command (you may need to enter a password halfway through), then restart `Costflow`:
+
+```sh
+sudo xattr -d com.apple.quarantine /Applications/Costflow.app
+```
